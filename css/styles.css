@@ -1,0 +1,221 @@
+/* ========================================================================General SECTION ==============================================================================*/ 
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; /* almost all section have text-algin at center except title section heading so we refectorying this by aplied in body and add extra command in title heading */
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* ========================================================================SECTION TITLE/SECTION ==============================================================================*/
+.color-section {
+    background-color: #ff4c69; 
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+
+/* ========================================================================SECTION TITLE/SECTION ==============================================================================*/
+.big-title { /* Section title and footer*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.secion-heading{ /* all section title */
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* ========================================================================CONTAINER SECTION ==============================================================================*/
+.container-fluid {
+    padding: 7% 15%; 
+}
+
+
+/* ========================================================================NEVBAR SECTION ==============================================================================*/
+
+
+/*Navigation Bar*/
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* ========================================================================TITLE SECTION ==============================================================================*/
+#title {
+    
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%; 
+}
+
+
+/*DOWNLOAD BUTTOM*/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+/* title image*/
+.title-image {
+    width: 17rem;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+
+
+
+/* ========================================================================FEATURE SECTION ==============================================================================*/
+
+#features {
+    
+    position: relative;
+    
+    
+    /* relative makes section follow the order of html static. */
+    /* z-index: 1; we can also delete z-index from here because abslute  come below feture or other section by stacking order , come fast below last one at top */
+}
+
+.feature-box {
+    
+    padding: 5%;
+}
+
+.feature-title {
+    font-size: 1.5rem; 
+}
+
+.feature-icon {
+    margin-bottom: 1rem;
+    color: #ef8172;
+    
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+
+
+/* ========================================================================TESTIMONIAL SECTION ==============================================================================*/
+
+#testimonials {
+    background-color: #ef8172;
+
+}
+
+
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 15%;
+    
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+
+/* ========================================================================PRESS SECTION ==============================================================================*/
+
+#press {
+    background-color: #ef8172;
+}
+
+#press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* ========================================================================PRICING SECTION ==============================================================================*/
+
+#pricing {
+    padding: 100px;
+    
+}
+
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* ========================================================================CTA SECTION ==============================================================================*/
+/* blackground color should be take as color class */
+
+/* CTA TITLE HEADING WE USING BIG TITLE CSS BECAUSE REFRACMENTATION; */
+
+
+/* ========================================================================FOOTER SECTION ==============================================================================*/
+
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+
+/*MEDIA QUEUES */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
